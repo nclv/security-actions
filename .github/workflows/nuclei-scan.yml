@@ -16,6 +16,6 @@ jobs:
           - https://microsoft.com
     steps:
     - name: Scan ${{ matrix.url }} with Nuclei
-      uses: projectdiscovery/nuclei-action@508c1868d4884e9fb6eb4d8d680cbc6b493c7ec5
+      uses: projectdiscovery/nuclei-action@main
       with:
         target: ${{ matrix.url }}
